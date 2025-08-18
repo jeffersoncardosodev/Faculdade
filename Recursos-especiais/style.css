@@ -1,0 +1,26 @@
+.caixa{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    color: white;
+
+}
+
+h1{
+    font-size: 22px;
+    color: white;
+}
+
+@keyframes mover-e-mudar {
+
+    from {
+        background-color: red;
+        transform: translateX(0);
+    }
+    to {
+        background-color: blue;
+        transform: translateY(100px);
+    }    
+} 
+
